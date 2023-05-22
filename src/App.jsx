@@ -3,7 +3,90 @@ import "./index.css";
 import "./App.css";
 
 function App() {
-  return <p className="text-3xl font-bold underline text-red-500">hi</p>;
+  return (
+    <>
+      <div>
+        <div>
+          <nav>
+            <div>
+              <h1>
+                <a href="/">Cartoon</a>
+              </h1>
+            </div>
+            <ul>
+              <li>
+                <a href="#">
+                  <span>Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>About</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <main>
+          <div>
+            <div>
+              <header>
+                <h2>title of the big card</h2>
+                <h3>explenation of the big card</h3>
+              </header>
+            </div>
+            <div>
+              <img />
+              <div>
+                <span>description of the image</span>
+              </div>
+            </div>
+            <div>
+              <img />
+              <div>
+                <span>description of the image2</span>
+              </div>
+            </div>
+            <div>
+              <img />
+              <div>
+                <span>description of the image3</span>
+              </div>
+            </div>
+          </div>
+          <h4>next title</h4>
+          <div>
+            <img />
+          </div>
+          <div>
+            <span>text img</span>
+          </div>
+          <div>
+            <button>idk</button>
+          </div>
+          <div>
+            <img />
+          </div>
+          <div>
+            <span>text img</span>
+          </div>
+          <div>
+            <button>idk</button>
+          </div>
+          <div>
+            <div>
+              <h4>contact or other thing you want to say</h4>
+            </div>
+          </div>
+        </main>
+      </div>
+    </>
+  );
 }
 
 export default App;
