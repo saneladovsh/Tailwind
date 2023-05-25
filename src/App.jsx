@@ -5,28 +5,30 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div>
+      <div className="bg-orange-700 font-mono">
         <div>
           <nav>
             <div>
               <h1>
-                <a href="/">Cartoon</a>
+                <a href="/" className="font-bold uppercase text-black">
+                  Cartoon
+                </a>
               </h1>
             </div>
             <ul>
               <li>
                 <a href="#">
-                  <span>Home</span>
+                  <span className="text-xl text-black">Home</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span>About</span>
+                  <span className="text-xl">About</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span>Contact</span>
+                  <span className="text-xl">Contact</span>
                 </a>
               </li>
             </ul>
@@ -36,8 +38,8 @@ function App() {
           <div>
             <div>
               <header>
-                <h2>title of the big card</h2>
-                <h3>explenation of the big card</h3>
+                <h2 className="text-5xl">title of the big card</h2>
+                <h3 className="text-2xl">explenation of the big card</h3>
               </header>
             </div>
             <div>
