@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="bg-orange-700 font-mono">
+      <div className="bg-orange-700 font-mono px-16 py-16">
         <div>
           <nav>
             <div>
